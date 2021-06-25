@@ -1,38 +1,105 @@
-.App {
+h1 {
+  color: white;
+  background-color: black;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Body {
+background-color: #EDC7B7;
+padding-bottom: 550px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+position: relative;
+margin-left: 670px;
+top: 80px;
+position: absolute;
+width: 345px;
+height: 544px;
+left: -150px;
+top: 85px;
+
+background: #1ce4ff;
+/*border-radius: 99px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading{
+  position: relative;
+  left: 140px;
+  top: -2px;
+}
+
+.card{
+  position: absolute;
+width: 280px;
+height: 501px;
+left: 550px;
+top: 112px;
+
+background: #000000;
+/* border-radius: 80px; */
+
+}
+.dare{
+  color: whitesmoke;
+  position: relative;
+  left: 10px;
+
+  
+}
+
+.btn{
+  position: relative;
+  top: 180px;
+  left: 100px;
+  padding: 50px;
+  border-radius: 100px;
+  background-color: red;
+}
+.inbtn{
   color: white;
+  font-style: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Switch1{
+  position: relative;
+  left: 1100px;
+  top: -50px;
+  
+}
+.Switch2{
+  position: relative;
+  left: 1100px;
+  top: -19px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  position: relative;
+  left: 940px;
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+}
+.a {
+  position: relative;
+  left: 1090px;
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+
+}
+
+.b{
+
+  
+    position: relative;
+    left: 1090px;
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+  
+}
+.headerr{
+  color: white;
+  font-weight: bold;
+  font-style: italic;
 }
